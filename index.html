@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="lsit.png">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updating List</title>
+</head>
+<body>
+    <div>
+        <H1 id="id1">Updating List</H1>
+    </div>
+    <div>
+        <aside><img style="position: relative; float: left; left: 2rem;" src="plane.gif" width="400" height="300"></aside>
+        <aside><img style="position: relative; float: right; right: 2rem;" src="air.gif" width="400" height="300"></aside>
+    </div>
+    <div>
+        <h1>First name</h1>
+        <input type="text" id="Fname">
+        <button onclick="firstName()">Enter</button>
+        <h1>Last Name</h1>
+        <input type="text" id="Lname">
+        <button onclick="lastName()">Enter</button>
+        <h1>Date of Birth</h1>
+        <input type="text" id="Birth">
+        <button onclick="birthDate()">Enter</button>
+        <h1>Departing City</h1>
+        <input type="text" id="Dcity">
+        <button onclick="cityDepart()">Enter</button>
+        <h1>Destenation</h1>
+        <input type="text" id="Des">
+        <button onclick="goingTo()">Enter</button>
+        <h1>Departing date</h1>
+        <input type="text" id="dleave">
+        <button onclick="dateLeave()">Enter</button>
+        <h1>Date Entering</h1>
+        <input type="text" id="denter">
+        <button onclick="dateGo()">Enter</button>
+    </div>
+    <div>
+        <aside><img id="id2" style="position: relative; float: left; left: 2rem;" src="bags.gif" width="400" height="300"></aside>
+        <aside><img id="id2" style="position: relative; float: right; right: 2rem;" src="bags.gif" width="400" height="300"></aside>
+    </div>
+    <div>
+        <h1>Number of bags</h1>
+        <input type="radio" id="bag" value="0-2" name="bag">
+        <label for="bag"><p> 0-2</p></label>
+        <button onclick="numBags()">Enter</button>
+        <br>
+        <input type="radio" id="suit" value="3-5" name="bag">
+        <label for="suit"><p>3-5</p></label>
+        <button onclick="numBags()">Enter</button>
+        <br>
+        <input type="radio" id="case" value="6-8" name="bag">
+        <label for="case"><p>6-8</p></label>
+        <button onclick="numBags()">Enter</button>
+    </div>
+    <div>
+        <aside><img style="position: relative; float: left; left: 2rem;" src="chick.gif" width="380" height="280"></aside>
+        <aside><img id="id2" style="position: relative; float: right; right: 2rem;" src="sad.gif" width="400" height="300"></aside>
+    </div>   
+    <div>
+        <h1>Type of Meal</h1>
+        <input type="radio" id="meat" value="Chicken" name="food">
+        <label for="meat"><p>Chicken</p></label>
+        <button onclick="mealType()">Enter</button>
+        <br>
+        <input type="radio" id="water" value="Salmon" name="food">
+        <label for="water"><p>Salmon</p></label>
+        <button onclick="mealType()">Enter</button>
+        <br>
+        <input type="radio" id="veg" value="Salad" name="food">
+        <label for="veg"><p>Salad</p></label>
+        <button onclick="mealType()">Enter</button>
+    </div>
+    <div>
+        <h1>Any extra recomendations</h1>
+        <input type="checkbox" id="leg" value="Legroom" name="extra">
+        <label for="leg"><p>Legroom</p></label>
+        <button onclick="extraRec()">Enter</button>
+        <br>
+        <input type="checkbox" id="wseat" value="Window seat" name="extra">
+        <label for="wseat"><p>Window seat</p></label>
+        <button onclick="extraRec()">Enter</button>
+        <br>
+        <input type="checkbox" id="head" value="Headphones" name="extra">
+        <label for="head"><p>Headphones</p></label>
+        <button onclick="extraRec()">Enter</button>
+        <br>
+        <input type="checkbox" id="extra" value="Extra food" name="extra">
+        <label for="extra"><p>Extra food</p></label>
+        <button onclick="extraRec()">Enter</button>
+    </div>
+    <div>
+        <h1>Optional Information</h1>
+        <h1>Whats your age</h1>
+        <input type="text" id="age">
+        <button onclick="ageNum()">Enter</button>
+        <h1> How long are you staying</h1>
+        <input type="text" id="leave">
+        <button onclick="goneFor()">Enter</button>
+    </div>
+    <div>
+        <H1>Your Information</H1>
+        <input type="text" id="op1">
+        <input type="text" id="op2">
+        <input type="text" id="op3">
+        <input type="text" id="op4">
+        <input type="text" id="op5">
+        <input type="text" id="op6">
+        <input type="text" id="op7">
+        <input type="text" id="op8">
+        <input type="text" id="op9">
+        <input type="text" id="op10">
+        <input type="text" id="op11">
+        <input type="text" id="op12">
+        <input type="text" id="op13">
+        <input type="text" id="op14">
+        <input type="text" id="op15">
+        <input type="text" id="op16">
+        <input type="text" id="op17">
+        <input type="text" id="op18">
+        <input type="text" id="op19">
+        <button onclick="list()">Sumbit</button>
+    </div>
+    
+    <div>
+        <textarea name="" id="user" cols="30" rows="10"></textarea>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
